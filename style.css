@@ -7,3 +7,7 @@ img{
 body{
 	background-color:cyan;
 }
+a:hover{
+	color: red;
+	font-weight: bolder;
+}

@@ -1,0 +1,18 @@
+Notes:
+margins:
+div{
+	backround-color:cyan;
+	margin:30px;
+	padding:25px;
+	border-radius:30px;
+	text-align:center;
+}
+link commands:
+a:hover{
+	backround-color:cyan;
+	color:pink;
+	font-size:16px
+	font-weight:bolder;
+}
+
+a: aplied to anything thats a link
