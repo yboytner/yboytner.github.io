@@ -1,4 +1,4 @@
-//this functions responds with a yes or no anseert to a yes or no question
+//this functions responds with a yes or no to answer a yes or no question
 function shakeMagicharoldBall(){
 	//alert("test");
 
