@@ -5,12 +5,13 @@ img{
 	width: 600px;
 }
 body{
-	background-color:cyan;
+	background-color:black;
 }
 a:hover{
 	color: red;
 	font-weight: bolder;
 }
+
 /*
 	these are margins
 */
