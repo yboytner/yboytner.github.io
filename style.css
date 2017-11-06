@@ -28,18 +28,18 @@ this is the tic tac toe
 #tictactoeboard{
 	width:300px;
 	height:300px;
-	border-style:double;
+	border-style:outset;
 	border-width:5px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:20px;
-	margin-bottom:20px;
+	margin-bottom:20px;	
 }
 .box{
 	float: left;
 	height: 98px;
 	width: 98px;
-	border-style:double;
+	border-style:groove;
 	border-width: 1px;
 	border-color:purple;
 	vertical-align: middle;

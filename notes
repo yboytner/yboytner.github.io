@@ -19,7 +19,7 @@ a: aplied to anything thats a link
 
 Program numbers always start with 0
 
-== is equal to?
-|| or
-&& and
-! not
+== -->is equal to?
+|| --> or at least 1 must be true to evaluate as true
+&& --> and both must be true to evaluate as true
+! --> nots
