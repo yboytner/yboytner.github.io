@@ -1,7 +1,9 @@
 var character = 'X';
 
+
 //this function handles onclick event
 function turn(location){
+<<<<<<< HEAD
 	//update the box with character, if box is empty
 	if(document.getElementById(location).innerHTML == ""){
 		//switch between X and O
@@ -15,6 +17,18 @@ function turn(location){
 		document.getElementById(location).innerHTML = character;
 		//check for winner after move
 		checkWinner();
+=======
+
+	//update box with character if its empty
+	if(document.getElementById(location).innerHTML == ""){
+
+		//update results div with feedback
+	document.getElementById("results").innerHTML = "It's " + character + "'s turn!";
+
+	//switch between X and O
+	if(character == 'X'){
+		character = 'O';
+>>>>>>> 0881c12440fe40e61b0b22fe6378493abac0644a
 	}
 }
 
@@ -38,4 +52,12 @@ function checkWinner(){
 		alert("Winner!");
 	}
 
+<<<<<<< HEAD
+=======
+
+		//write character in box
+		document.getElementById(location).innerHTML = character;
+	}
+
+>>>>>>> 0881c12440fe40e61b0b22fe6378493abac0644a
 }
