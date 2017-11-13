@@ -46,6 +46,9 @@ function checkWinner(){
 	   ((r1c3 == r2c3) && (r1c3 == r3c3) && r1c3 != '') ||
 	   ((r1c1 == r2c2) && (r1c1 == r3c3) && r1c1 != '') ||
 	   ((r1c3 == r2c2) && (r1c3 == r3c1) && r1c3 != '')){
-	//alert ("winner winner chicken dinner!A")}
 
+	   //alert ("winner winner chicken dinner!");
+	   //update the results div
+	   document.getElementById("results").innerHTML = character + " wins!";
+	}
 }
