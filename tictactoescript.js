@@ -1,11 +1,13 @@
 		var character = 'X';
+		var gameOver = false;
 
 
 //this function handles onclick event
 function turn(location){
 	
 	//update the box with character, if box is empty
-	if(document.getElementById(location).innerHTML == ""){
+	if(document.getElementById(location).innerHTML == "" &&
+	 gameOver == false){
 		
 		//update results div with feedback
 	document.getElementById("results").innerHTML = "It's " + character + "'s turn!";
@@ -47,7 +49,9 @@ function checkWinner(){
 	   ((r1c1 == r2c2) && (r1c1 == r3c3) && r1c1 != '') ||
 	   ((r1c3 == r2c2) && (r1c3 == r3c1) && r1c3 != '')){
 
-	   //alert ("winner winner chicken dinner!");
+		//game is over now, there's a winner
+		gameOver = true;
+	   
 	   //update the results div
 	   document.getElementById("results").innerHTML = character + " wins!";
 	}
@@ -64,4 +68,8 @@ function clearAll(){
 		document.getElementById("r3c1").innerHTML="";
 		document.getElementById("r3c2").innerHTML="";
 		document.getElementById("r3c3").innerHTML="";
+
+	   	//reset gameover, so players can play again
+		gameOver = false;
+
 }
