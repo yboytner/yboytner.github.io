@@ -38,10 +38,11 @@ this is the tic tac toe
 }
 .box{
 	float: left;
-	height: 98px;
-	width: 98px;
-	border-style:groove;
-	border-width: 1px;
+	height: 94px;
+	width: 94px;
+	border-style:double;
+	border-width: 3px;
+	border-radius:20px;
 	border-color:purple;
 	vertical-align: middle;
 	line-height: 100px;
