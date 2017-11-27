@@ -54,7 +54,7 @@ this is the tic tac toe
 #circle{
 	height: 100px;
 	width: 100px;
-	background-color: red;
+	background-color: black;
 	border-radius: 50px;
 	position: relative;
 	top: 100px;
@@ -62,5 +62,12 @@ this is the tic tac toe
 }
 #clickpanel{
 	height: 600px;
-	width: 600px;
+	width: 100%;
+}
+#circlebox{
+	height: 600px;
+	width:  100%;
+	border-radius:30px;
+	border-style: double;
+	background-color: red;
 }
