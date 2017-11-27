@@ -2,13 +2,13 @@
 var list = ["yaaas",
 			"Nah",
 			"Hell Yea Dude",
-			"Sorry I forgot the question try again",
+			"Totes my dude",
 			"just google it",
-			"lol idk bro",
-			"thats kinda a weird question",
+			"I think so",
+			"its gonna be a no for me",
 			"great question",
 			"error 404 response not found",
-			"jee wiz man I dont know"];
+			"I dont think so dawg"];
 
 var imageState = "front";
 

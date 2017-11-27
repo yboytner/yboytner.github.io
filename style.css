@@ -49,3 +49,18 @@ this is the tic tac toe
 	font-size:80px;
 	background-color:white;
 }
+/*start of clickable */
+
+#circle{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	border-radius: 50px;
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+#clickpanel{
+	height: 600px;
+	width: 600px;
+}
