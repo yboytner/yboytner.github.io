@@ -40,14 +40,14 @@ function checkWinner(){
 	var r3c2 = document.getElementById("r3c2").innerHTML;
 	var r3c3 = document.getElementById("r3c3").innerHTML;
 
-	if(((r1c1 == r1c2) && (r1c1 == r1c3) && r1c1 != '') ||
-	   ((r2c1 == r2c2) && (r2c1 == r2c3) && r2c1 != '') ||
-	   ((r3c1 == r3c2) && (r3c1 == r3c3) && r3c1 != '') ||
-	   ((r1c1 == r2c1) && (r1c1 == r3c1) && r1c1 != '') ||
-	   ((r1c2 == r2c2) && (r1c2 == r3c2) && r1c2 != '') ||
-	   ((r1c3 == r2c3) && (r1c3 == r3c3) && r1c3 != '') ||
-	   ((r1c1 == r2c2) && (r1c1 == r3c3) && r1c1 != '') ||
-	   ((r1c3 == r2c2) && (r1c3 == r3c1) && r1c3 != '')){
+	if(((r1c1 == r1c2) && (r1c1 == r1c3) && r1c1 != '') || //first row
+	   ((r2c1 == r2c2) && (r2c1 == r2c3) && r2c1 != '') || //second row
+	   ((r3c1 == r3c2) && (r3c1 == r3c3) && r3c1 != '') || //third row
+	   ((r1c1 == r2c1) && (r1c1 == r3c1) && r1c1 != '') || //first column
+	   ((r1c2 == r2c2) && (r1c2 == r3c2) && r1c2 != '') || //second column
+	   ((r1c3 == r2c3) && (r1c3 == r3c3) && r1c3 != '') || //third column
+	   ((r1c1 == r2c2) && (r1c1 == r3c3) && r1c1 != '') || //left to right diagonal
+	   ((r1c3 == r2c2) && (r1c3 == r3c1) && r1c3 != '')){  //right to left diagonal
 
 		//game is over now, there's a winner
 		gameOver = true;
