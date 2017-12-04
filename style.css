@@ -34,7 +34,7 @@ this is the tic tac toe
 	margin-right:auto;
 	margin-top:20px;
 	margin-bottom:20px;
-	background-color: black;
+	background-color: red;
 }
 .box{
 	float: left;
