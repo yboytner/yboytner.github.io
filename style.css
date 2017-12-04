@@ -34,7 +34,7 @@ this is the tic tac toe
 	margin-right:auto;
 	margin-top:20px;
 	margin-bottom:20px;
-	background-color: red;
+	background-color: black;
 }
 .box{
 	float: left;
@@ -57,8 +57,8 @@ this is the tic tac toe
 	background-color: black;
 	border-radius: 50px;
 	position: relative;
-	top: 100px;
-	left: 100px;
+	top: 300px;
+	left: 300px;
 }
 #clickpanel{
 	height: 600px;
