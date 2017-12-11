@@ -71,3 +71,20 @@ this is the tic tac toe
 	border-style: double;
 	background-color: red;
 }
+
+/*START OF THE GALLERY*/
+#gallerypics{
+	width:300px;
+	height:300px;
+	border-style:double;
+	border-width:5px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	background-color: red;
+}
+#pics{
+	width:300px;
+	height:300px;
+}
