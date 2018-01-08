@@ -29,3 +29,14 @@ Data Types:
 3.2;= double
 '3';= Character
 "num";= string
+
+DOM's (document-object manipulation)
+<ul>
+<a>
+<head>
+<body>
+<section>
+
+ID - one unique element
+Class - multiple elements
+
