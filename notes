@@ -19,7 +19,13 @@ a: aplied to anything thats a link
 
 Program numbers always start with 0
 
-== -->is equal to?
+== -->is equal to
 || --> or at least 1 must be true to evaluate as true
 && --> and both must be true to evaluate as true
-! --> nots
+! --> not
+
+Data Types:
+5= integer
+3.2;= double
+'3';= Character
+"num";= string
